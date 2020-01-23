@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)hideView:(id)sender;
+- (IBAction)showView:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *workingView;
 
 @end
 

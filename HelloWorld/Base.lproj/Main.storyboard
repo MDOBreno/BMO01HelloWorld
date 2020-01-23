@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Mostrar"/>
                                 <connections>
-                                    <action selector="showView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7lo-bn-O4R"/>
+                                    <action selector="showView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JJW-U1-vzc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brM-7S-ByO">
@@ -34,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Esconder"/>
                                 <connections>
-                                    <action selector="hideView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wyy-Y0-El1"/>
+                                    <action selector="hideView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NOd-Zf-cw8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,12 +41,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="workingView" destination="sID-z9-sVx" id="egV-VG-tzh"/>
+                        <outlet property="workingView" destination="sID-z9-sVx" id="bEn-Tf-bob"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="129.98500749625188"/>
+            <point key="canvasLocation" x="129" y="128"/>
         </scene>
     </scenes>
 </document>

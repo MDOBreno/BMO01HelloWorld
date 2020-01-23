@@ -8,13 +8,6 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-- (IBAction)hideView:(id)sender;
-- (IBAction)showView:(id)sender;
-@property (weak, nonatomic) IBOutlet UIView *workingView;
-
-@end
 
 @implementation ViewController
 
